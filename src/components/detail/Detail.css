@@ -1,0 +1,83 @@
+.detailContainer {
+  margin: 24px;
+}
+.loadingContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.pokeDetail {
+  background: #f7fafc;
+  color: hsl(214, 33%, 97%);
+  border-radius: 10px;
+  max-width: 350px;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-shadow: 0 15px 35px hsla(0, 0%, 0%, 0.2);
+  box-shadow: 0 15px 35px hsla(0, 0%, 0%, 0.2);
+}
+
+.pokedetail-header-types-container {
+  flex: 100%;
+}
+
+.pokeDetailName {
+  text-transform: capitalize;
+  padding-right: 1rem;
+}
+.detail-name-type-container {
+  display: flex;
+  align-items: center;
+  max-width: max-content;
+  flex-wrap: wrap;
+}
+.pokeDetailHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: grid;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-column: 1;
+  grid-row: 1;
+  padding: 1rem;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+.pokeSpriteContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .detailContainer {
+    margin: 24px auto;
+  }
+  .detail-body-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 0;
+  }
+  .pokedetail-header-types-container {
+    flex: 0%;
+  }
+  .pokeSpriteContainer {
+    align-items: flex-start;
+  }
+} ;

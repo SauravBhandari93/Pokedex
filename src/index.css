@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#root {
+  min-height: 100vh;
+  background-image: url("./components/images/background.jpg");
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style: none;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+span {
+  padding: 0;
+  margin: 0;
+}
+h3 {
+  padding: 0;
+  margin: 0;
+}
+.loadingContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+footer {
+  font-family: inherit;
+  background-color: #363636;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-size: 1.1rem;
+}
+footer a {
+  color: #e58112;
+}
