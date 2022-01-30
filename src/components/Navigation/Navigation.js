@@ -7,9 +7,21 @@ function Navigation() {
   return (
     <>
       <div className="Navigation-bar">
-        <img src={img1} alt="pokeball-logo" className="navbar1-image" />
-        <img src={img} alt="pokedex-logo" className="navbar2-image" />
-        <img src={img1} alt="pokeball-logo" className="navbar3-image" />
+        <li>
+          <a href="/">
+            <img src={img1} alt="pokeball-logo" className="navbar1-image" />
+          </a>
+        </li>
+        <li>
+          <a href="/">
+            <img src={img} alt="pokedex-logo" className="navbar2-image" />
+          </a>
+        </li>
+        <li>
+          <a href="/">
+            <img src={img1} alt="pokeball-logo" className="navbar3-image" />
+          </a>
+        </li>
       </div>
     </>
   );

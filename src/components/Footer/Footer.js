@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
       <div>
-        <a target="_blank" href="https://github.com/">
+        <a target="_blank" href="https://github.com/SauravBhandari93/Pokedex">
           GitHub Link
         </a>
       </div>

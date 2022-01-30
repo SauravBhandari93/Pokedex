@@ -15,7 +15,7 @@ const DetailStats = ({ stats }) => {
             <Progress
               borderRadius="8px"
               colorScheme="cyan"
-              max={1118}
+              max={100}
               value={base_stat}
             />
           </div>
